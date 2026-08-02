@@ -1,0 +1,34 @@
+title: "Sabita Karki"
+tagline: "AI, Digital Marketing, and Consumer Behavior Research"
+description: "Academic website of Sabita Karki, a management researcher studying artificial intelligence in marketing, social commerce, consumer behavior, and digital transformation."
+url: "https://sabitakarki.github.io"
+baseurl: ""
+repository: "savylotus/sabitakarki.github.io"
+theme: jekyll-theme-slate
+lang: en-US
+timezone: Asia/Kathmandu
+image: /assets/images/sabita-karki-social.jpg
+
+author:
+  name: "Sabita Karki"
+  email: "savykarki@gmail.com"
+  location: "Kathmandu, Nepal"
+  scholar: "k4VdV74AAAAJ"
+  orcid: "0009-0003-0813-6199"
+  linkedin: "https://www.linkedin.com/in/savykarki/"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/sabita-karki-social.jpg
+        alt: "Sabita Karki — management researcher in AI and digital marketing"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - vendor/
+  - README.md

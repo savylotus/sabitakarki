@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#4c236b">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="inner header-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <p class="site-tagline">AI · Social Commerce · Digital Marketing · Consumer Behavior</p>
+      <nav aria-label="Primary navigation">
+        <ul class="main-nav">
+          {% for item in site.data.navigation %}
+          <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="inner main-content">{{ content }}</main>
+  <footer class="site-footer">
+    <div class="inner">
+      <p><strong>Sabita Karki</strong> · Management Researcher · Kathmandu, Nepal</p>
+      <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ '/contact/' | relative_url }}">Contact</a> · <a href="#top">Back to top</a></p>
+      <p>© {{ site.time | date: '%Y' }} Sabita Karki. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
