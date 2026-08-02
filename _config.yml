@@ -3,7 +3,7 @@ tagline: "AI, Digital Marketing, and Consumer Behavior Research"
 description: "Academic website of Sabita Karki, a management researcher studying artificial intelligence in marketing, social commerce, consumer behavior, and digital transformation."
 url: "https://sabitakarki.github.io"
 baseurl: ""
-repository: "savylotus/sabitakarki.github.io"
+repository: "Sabitakarki/sabitakarki.github.io"
 theme: jekyll-theme-slate
 lang: en-US
 timezone: Asia/Kathmandu
